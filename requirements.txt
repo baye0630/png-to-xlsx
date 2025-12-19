@@ -1,0 +1,7 @@
+numpy<2.0.0
+paddlepaddle==2.6.2
+paddleocr==2.7.3
+streamlit
+pandas
+openpyxl
+opencv-python-headless
