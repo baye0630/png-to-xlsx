@@ -1,9 +1,11 @@
 [server]
 headless = true
 address = "0.0.0.0"
-port = 8501
+port = 3000
 enableCORS = false
 enableXsrfProtection = false
+baseUrlPath = ""
 
 [browser]
 gatherUsageStats = false
+serverAddress = "0.0.0.0"
