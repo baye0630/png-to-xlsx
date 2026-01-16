@@ -1,0 +1,153 @@
+/**
+ * 错误消息组件样式
+ */
+
+.error-message {
+  background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%);
+  border: 2px solid #ff4d4f;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 16px 0;
+  box-shadow: 0 4px 12px rgba(255, 77, 79, 0.15);
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.error-message-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.error-message-icon {
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+.error-message-title {
+  flex: 1;
+  font-size: 18px;
+  font-weight: 600;
+  color: #cf1322;
+}
+
+.error-message-close {
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #ff4d4f;
+  cursor: pointer;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.error-message-close:hover {
+  background-color: rgba(255, 77, 79, 0.1);
+}
+
+.error-message-body {
+  margin-bottom: 12px;
+}
+
+.error-message-text {
+  font-size: 16px;
+  color: #262626;
+  margin: 0 0 8px 0;
+  font-weight: 500;
+}
+
+.error-message-suggestion {
+  font-size: 14px;
+  color: #595959;
+  margin: 0;
+  padding-left: 20px;
+  border-left: 3px solid #ff7875;
+}
+
+.error-message-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 77, 79, 0.2);
+}
+
+.error-message-retry {
+  background: linear-gradient(135deg, #ff4d4f 0%, #ff7875 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.error-message-retry:hover {
+  background: linear-gradient(135deg, #cf1322 0%, #ff4d4f 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 77, 79, 0.3);
+}
+
+.error-message-retry:active {
+  transform: translateY(0);
+}
+
+/* 不同错误类型的变体 */
+.error-message-network {
+  border-color: #1890ff;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e6f7ff 100%);
+}
+
+.error-message-network .error-message-title {
+  color: #0958d9;
+}
+
+.error-message-network .error-message-suggestion {
+  border-left-color: #40a9ff;
+}
+
+.error-message-timeout {
+  border-color: #faad14;
+  background: linear-gradient(135deg, #fffbf0 0%, #fff7e6 100%);
+}
+
+.error-message-timeout .error-message-title {
+  color: #d46b08;
+}
+
+.error-message-timeout .error-message-suggestion {
+  border-left-color: #ffc53d;
+}
+
+.error-message-validation {
+  border-color: #faad14;
+  background: linear-gradient(135deg, #fffbf0 0%, #fff7e6 100%);
+}
+
+.error-message-validation .error-message-title {
+  color: #d46b08;
+}
+
+.error-message-validation .error-message-suggestion {
+  border-left-color: #ffc53d;
+}

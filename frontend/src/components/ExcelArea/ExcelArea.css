@@ -1,0 +1,233 @@
+/**
+ * Excel 编辑区域样式
+ */
+.excel-area {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+}
+
+.excel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.excel-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.excel-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.excel-button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.excel-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.excel-button-primary {
+  background: #52c41a;
+  color: white;
+}
+
+.excel-button-primary:hover:not(:disabled) {
+  background: #73d13d;
+}
+
+.excel-button-secondary {
+  background: white;
+  border: 1px solid #d9d9d9;
+  color: #333;
+}
+
+.excel-button-secondary:hover:not(:disabled) {
+  border-color: #40a9ff;
+  color: #40a9ff;
+}
+
+.excel-empty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  padding: 60px 20px;
+}
+
+.excel-empty-icon {
+  font-size: 72px;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.excel-empty-text {
+  font-size: 18px;
+  margin: 0 0 8px 0;
+  color: #666;
+}
+
+.excel-empty-hint {
+  font-size: 14px;
+  margin: 0;
+  color: #999;
+}
+
+.excel-tabs {
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+
+.excel-tab {
+  padding: 10px 20px;
+  border: none;
+  background: transparent;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.excel-tab:hover {
+  color: #40a9ff;
+}
+
+.excel-tab.active {
+  color: #1890ff;
+  border-bottom-color: #1890ff;
+  font-weight: 500;
+}
+
+.excel-tab-info {
+  font-size: 12px;
+  color: #999;
+  margin-left: 8px;
+}
+
+.excel-table-container {
+  flex: 1;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  overflow: auto;
+  background: #fafafa;
+}
+
+.excel-table-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 300px;
+  color: #999;
+  padding: 40px;
+  text-align: center;
+}
+
+.excel-table-placeholder p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.excel-placeholder-hint {
+  font-size: 14px !important;
+  color: #666 !important;
+}
+
+.excel-placeholder-note {
+  font-size: 12px !important;
+  color: #999 !important;
+  margin-top: 20px !important;
+  font-style: italic;
+}
+
+/* 加载状态 */
+.excel-loading {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f0f0f0;
+  border-top-color: #1890ff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-text {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+/* 错误状态 */
+.excel-error {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.error-icon {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.error-text {
+  font-size: 16px;
+  color: #ff4d4f;
+  margin: 0;
+  text-align: center;
+}
+
+/* 编辑提示 */
+.excel-hint {
+  padding: 8px 12px;
+  background: #e6f7ff;
+  border: 1px solid #91d5ff;
+  border-radius: 4px;
+  color: #0050b3;
+  font-size: 13px;
+  margin-bottom: 12px;
+  text-align: center;
+}

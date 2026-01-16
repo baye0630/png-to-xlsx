@@ -1,0 +1,229 @@
+/**
+ * 上传区域样式
+ */
+.upload-area {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload-title {
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.upload-drop-zone {
+  border: 2px dashed #d9d9d9;
+  border-radius: 8px;
+  padding: 40px 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  background: #fafafa;
+  cursor: pointer;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-drop-zone:hover {
+  border-color: #40a9ff;
+  background: #f0f8ff;
+}
+
+.upload-drop-zone.dragging {
+  border-color: #40a9ff;
+  background: #e6f7ff;
+}
+
+.upload-placeholder {
+  width: 100%;
+}
+
+.upload-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.upload-text {
+  font-size: 16px;
+  color: #666;
+  margin: 0 0 8px 0;
+}
+
+.upload-hint {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+}
+
+.upload-file-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.upload-file-icon {
+  font-size: 48px;
+}
+
+.upload-file-name {
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+  word-break: break-all;
+  max-width: 400px;
+}
+
+.upload-file-size {
+  font-size: 14px;
+  color: #999;
+}
+
+.upload-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.upload-button {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.upload-button-select {
+  background: white;
+  border: 1px solid #d9d9d9;
+  color: #333;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-button-select:hover:not(:disabled) {
+  border-color: #40a9ff;
+  color: #40a9ff;
+}
+
+.upload-button-primary {
+  background: #1890ff;
+  color: white;
+}
+
+.upload-button-primary:hover:not(:disabled) {
+  background: #40a9ff;
+}
+
+.upload-button-secondary {
+  background: white;
+  border: 1px solid #d9d9d9;
+  color: #666;
+}
+
+.upload-button-secondary:hover {
+  border-color: #ff4d4f;
+  color: #ff4d4f;
+}
+
+/* 状态展示区域 */
+.upload-status {
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 6px;
+  background: #f5f5f5;
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.status-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.status-text {
+  color: #333;
+  font-weight: 500;
+}
+
+.status-task-id {
+  margin-left: auto;
+  font-size: 12px;
+  color: #999;
+  font-family: monospace;
+}
+
+/* 上传中状态 */
+.status-uploading {
+  color: #1890ff;
+}
+
+/* 处理中状态 */
+.status-processing {
+  color: #722ed1;
+}
+
+/* 轮询中状态 */
+.status-polling {
+  color: #13c2c2;
+  position: relative;
+}
+
+/* 成功状态 */
+.status-success {
+  color: #52c41a;
+}
+
+.status-success .status-text {
+  color: #52c41a;
+}
+
+/* 错误状态 */
+.status-error {
+  color: #ff4d4f;
+  background: #fff1f0;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ffccc7;
+}
+
+.status-error .status-text {
+  color: #ff4d4f;
+}
+
+/* 加载动画 */
+.status-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #f0f0f0;
+  border-top-color: #1890ff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-left: auto;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "job_id": "9bbcb05f73d74e11924055425bb9e1d1",
+  "final": {
+    "job_id": "9bbcb05f73d74e11924055425bb9e1d1",
+    "status": "finished",
+    "total_pages": 1,
+    "done_pages": 1,
+    "error_message": "",
+    "elapsed_seconds": 2.55
+  },
+  "pages": [
+    {
+      "input_path": "/home/lenovo/production_project/xcla_paddleocr_vl_service/data/jobs/9bbcb05f73d74e11924055425bb9e1d1/origin.png",
+      "page_index": null,
+      "page_count": null,
+      "width": 181,
+      "height": 256,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ]
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "header",
+          "block_content": "$2x^{2}-3x+2$",
+          "block_bbox": [
+            136,
+            0,
+            173,
+            7
+          ],
+          "block_id": 0,
+          "block_order": null,
+          "group_id": 0
+        },
+        {
+          "block_label": "image",
+          "block_content": "",
+          "block_bbox": [
+            20,
+            20,
+            168,
+            162
+          ],
+          "block_id": 1,
+          "block_order": null,
+          "group_id": 1
+        }
+      ],
+      "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+          {
+            "cls_id": 12,
+            "label": "header",
+            "score": 0.5825251340866089,
+            "coordinate": [
+              136.5962677001953,
+              0.9415593147277832,
+              173.9904022216797,
+              7.747808933258057
+            ]
+          },
+          {
+            "cls_id": 14,
+            "label": "image",
+            "score": 0.5342008471488953,
+            "coordinate": [
+              20.093849182128906,
+              20.3770751953125,
+              168.24432373046875,
+              162.342529296875
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

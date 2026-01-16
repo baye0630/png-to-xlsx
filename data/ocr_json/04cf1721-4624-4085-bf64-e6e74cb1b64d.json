@@ -1,0 +1,79 @@
+{
+  "job_id": "dbc7f328c2f046f1a919019cf543fefd",
+  "final": {
+    "job_id": "dbc7f328c2f046f1a919019cf543fefd",
+    "status": "finished",
+    "total_pages": 1,
+    "done_pages": 1,
+    "error_message": "",
+    "elapsed_seconds": 5.12
+  },
+  "pages": [
+    {
+      "input_path": "/home/lenovo/production_project/xcla_paddleocr_vl_service/data/jobs/dbc7f328c2f046f1a919019cf543fefd/origin.jpg",
+      "page_index": null,
+      "page_count": null,
+      "width": 912,
+      "height": 1280,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ]
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "table",
+          "block_content": "<table><tr><td colspan=\"12\">呈报:长城汽车股份有限公司徐水魏牌分公司IT桌面运维服务报告(25年4月26日-25年7月25日)</td></tr><tr><td colspan=\"12\">1、目的本报告用于2023年12月26日进入运营期,由联想团队提供桌面运维服务。在保证指标稳定达成的基础上,逐步优化改善,实现双方共同成长。接下来的运营期,将针对解决方案的记录标准做进一步规范,为后期的智能化服务做准备。</td></tr><tr><td colspan=\"2\">2、合同内容</td><td colspan=\"10\">报告周期:2025年4月26日-2025年7月25日</td></tr><tr><td>模式类型</td><td>数量</td><td rowspan=\"4\">区域分布</td><td>保定</td><td>北京</td><td>江苏</td><td>上海</td><td>成都</td><td>大连</td><td></td><td></td><td></td></tr><tr><td>模式一</td><td>4324</td><td>3817</td><td>404</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>模式二</td><td>\\</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>人员外包</td><td>\\</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"12\">3、运营业务量情况</td></tr><tr><td colspan=\"12\">3.1、工单量数据</td></tr><tr><td>业务类型</td><td colspan=\"3\">25年4月26日-25年5月25日</td><td colspan=\"4\">25年5月26日-25年6月25日</td><td colspan=\"4\">25年6月26日-25年7月25日</td></tr><tr><td>工单总量</td><td colspan=\"3\">1457</td><td colspan=\"4\">1510</td><td colspan=\"4\">1391</td></tr><tr><td>9分钟超响应</td><td colspan=\"3\">13</td><td colspan=\"4\">16</td><td colspan=\"4\">10</td></tr><tr><td>1小时解决</td><td colspan=\"3\">30</td><td colspan=\"4\">27</td><td colspan=\"4\">20</td></tr><tr><td>评价量</td><td colspan=\"3\">713</td><td colspan=\"4\">778</td><td colspan=\"4\">635</td></tr><tr><td>好评量</td><td colspan=\"3\">713</td><td colspan=\"4\">778</td><td colspan=\"4\">634</td></tr><tr><td colspan=\"12\">总结与分析:a.为提高员工信息安全管理联想为员工开设沟通能力培训,提供服务的员工均已参加学习并通过考试。b.本季度运营指标达成良好。联想会持续关注工单质量,并为工程师提供联想专项培训已达到更好的客户满意度。</td></tr><tr><td colspan=\"12\">4、运营指标达成情况</td></tr><tr><td rowspan=\"2\">指标名称</td><td rowspan=\"2\">季度指标基线</td><td colspan=\"2\">25.4.26-25.7.25</td><td colspan=\"2\">25.4.26-25.5.25</td><td colspan=\"2\">25.5.26-25.6.25</td><td colspan=\"4\">25.6.26-25.7.25</td></tr><tr><td>季度指标</td><td>指标结果</td><td colspan=\"2\">指标结果</td><td colspan=\"2\">指标结果</td><td colspan=\"4\">指标结果</td></tr><tr><td>及时响应率</td><td>≥95.00%</td><td>99.11%</td><td>达标</td><td colspan=\"2\">99.11%</td><td colspan=\"2\">98.94%</td><td colspan=\"4\">99.28%</td></tr><tr><td>及时解决率</td><td>≥95.00%</td><td>98.24%</td><td>达标</td><td colspan=\"2\">97.94%</td><td colspan=\"2\">98.21%</td><td colspan=\"4\">98.56%</td></tr><tr><td>评价率</td><td>≥40.00%</td><td>48.70%</td><td>达标</td><td colspan=\"2\">48.94%</td><td colspan=\"2\">51.52%</td><td colspan=\"4\">45.65%</td></tr><tr><td>满意度</td><td>≥98.00%</td><td>99.95%</td><td>达标</td><td colspan=\"2\">100.00%</td><td colspan=\"2\">100.00%</td><td colspan=\"4\">99.84%</td></tr><tr><td>投诉率</td><td>≤0.50%</td><td>0.00%</td><td>达标</td><td colspan=\"2\">0.00%</td><td colspan=\"2\">0.00%</td><td colspan=\"4\">0.00%</td></tr><tr><td colspan=\"12\">5、结款明细</td></tr><tr><td colspan=\"12\">运营期2025年4月26日-25年7月25日的指标达成,依据合同,付款明细如下:</td></tr><tr><td colspan=\"2\">费用名称</td><td>数量</td><td>单位</td><td colspan=\"2\">含税单价(元/台/年)</td><td>未税金额</td><td>税额</td><td colspan=\"4\">含税结算费(元)</td></tr><tr><td colspan=\"2\">桌面运维服务费(远程)</td><td>1421</td><td>台</td><td colspan=\"2\">71.77</td><td>24053.11</td><td>1443.19</td><td colspan=\"4\">25496.29</td></tr><tr><td colspan=\"2\">桌面运维服务费(远程保定)</td><td>1377</td><td>台</td><td colspan=\"2\">43.07</td><td>13987.59</td><td>839.26</td><td colspan=\"4\">14826.85</td></tr><tr><td colspan=\"2\">桌面运维服务费(现场北京)</td><td>44</td><td>台</td><td colspan=\"2\">73.13</td><td>758.90</td><td>45.53</td><td colspan=\"4\">804.43</td></tr><tr><td colspan=\"8\">费用合计:</td><td colspan=\"4\">41127.57</td></tr><tr><td colspan=\"12\">6、会签:依据合同、订单及上述数据,本季度情况如上双方确认无误。</td></tr><tr><td colspan=\"6\">甲方:长城汽车股份有限公司徐水魏牌分公司签字:</td><td colspan=\"6\">乙方:联想(北京)有限公司签字:</td></tr><tr><td colspan=\"6\">李琳琳</td><td colspan=\"6\"><img src=\"imgs/img_in_image_box_535_969_684_1021.jpg\" ></td></tr></table>",
+          "block_bbox": [
+            40,
+            42,
+            877,
+            1044
+          ],
+          "block_id": 0,
+          "block_order": null,
+          "group_id": 0
+        }
+      ],
+      "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+          {
+            "cls_id": 21,
+            "label": "table",
+            "score": 0.9892691969871521,
+            "coordinate": [
+              40.319610595703125,
+              42.672332763671875,
+              877.00927734375,
+              1044.677001953125
+            ]
+          },
+          {
+            "cls_id": 14,
+            "label": "image",
+            "score": 0.5171952247619629,
+            "coordinate": [
+              535.2008666992188,
+              969.0601806640625,
+              684.3527221679688,
+              1021.3516845703125
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
